@@ -1,0 +1,171 @@
+#include "libfilezilla/util.hpp"
+#include "libfilezilla/time.hpp"
+
+#include <cassert>
+#include <random>
+
+#include <time.h>
+#include <string.h>
+
+#include <nettle/memops.h>
+
+#if defined(FZ_WINDOWS) && !defined(_MSC_VER)
+#include "libfilezilla/glue/windows.hpp"
+#include <wincrypt.h>
+#endif
+
+namespace fz {
+
+void sleep(duration const& d)
+{
+#ifdef FZ_WINDOWS
+	Sleep(static_cast<DWORD>(d.get_milliseconds()));
+#else
+	timespec ts{};
+	ts.tv_sec = d.get_seconds();
+	ts.tv_nsec = (d.get_milliseconds() % 1000) * 1000000;
+	nanosleep(&ts, nullptr);
+#endif
+}
+
+void yield()
+{
+#ifdef FZ_WINDOWS
+	Sleep(static_cast<DWORD>(1)); // Nothing smaller on MSW?
+#else
+	timespec ts{};
+	ts.tv_nsec = 100000; // 0.1ms
+	nanosleep(&ts, nullptr);
+#endif
+}
+
+namespace {
+#if defined(FZ_WINDOWS) && !defined(_MSC_VER)
+// Unfortunately MiNGW does not have a working random_device
+// Implement our own in terms of CryptGenRandom.
+// Fall back to time-seeded mersenne twister on error
+struct provider
+{
+	provider()
+	{
+		if (!CryptAcquireContextW(&h_, nullptr, nullptr, PROV_RSA_FULL, CRYPT_VERIFYCONTEXT | CRYPT_SILENT)) {
+			h_ = 0;
+		}
+		mt_.seed(datetime::now().get_time_t());
+	}
+	~provider()
+	{
+		if (h_) {
+			CryptReleaseContext(h_, 0);
+		}
+	}
+
+	HCRYPTPROV h_{};
+	std::mt19937_64 mt_;
+};
+
+struct working_random_device
+{
+	typedef uint64_t result_type;
+
+	constexpr static result_type min() { return std::numeric_limits<result_type>::min(); }
+	constexpr static result_type max() { return std::numeric_limits<result_type>::max(); }
+
+	result_type operator()()
+	{
+		thread_local provider prov;
+
+		result_type ret{};
+		if (!prov.h_ || !CryptGenRandom(prov.h_, sizeof(ret), reinterpret_cast<BYTE*>(&ret))) {
+			ret = prov.mt_();
+		}
+
+		return ret;
+	}
+};
+
+static_assert(working_random_device::max() == std::mt19937_64::max(), "Unsupported std::mt19937_64::max()");
+static_assert(working_random_device::min() == std::mt19937_64::min(), "Unsupported std::mt19937_64::min()");
+#else
+typedef std::random_device working_random_device;
+#endif
+}
+
+int64_t random_number(int64_t min, int64_t max)
+{
+	assert(min <= max);
+	if (min >= max) {
+		return min;
+	}
+
+	std::uniform_int_distribution<int64_t> dist(min, max);
+	working_random_device rd;
+	return dist(rd);
+}
+
+std::vector<uint8_t> random_bytes(size_t size)
+{
+	std::vector<uint8_t> ret;
+	ret.resize(size);
+	random_bytes(size, ret.data());
+	return ret;
+}
+
+void random_bytes(size_t size, uint8_t* destination)
+{
+	if (!size) {
+		return;
+	}
+
+	working_random_device rd;
+
+	size_t i;
+	for (i = 0; i + sizeof(std::random_device::result_type) <= size; i += sizeof(std::random_device::result_type)) {
+		*reinterpret_cast<std::random_device::result_type*>(destination + i) = rd();
+	}
+
+	if (i < size) {
+		auto v = rd();
+		memcpy(destination + i, &v, size - i);
+	}
+}
+
+
+uint64_t bitscan(uint64_t v)
+{
+#if !FZ_WINDOWS || defined(__MINGW32__) || defined(__MINGW64__)
+	return __builtin_ctzll(v);
+#else
+	unsigned long i;
+	_BitScanForward64(&i, v);
+
+	return static_cast<uint64_t>(i);
+#endif
+}
+
+uint64_t bitscan_reverse(uint64_t v)
+{
+#if !FZ_WINDOWS || defined(__MINGW32__) || defined(__MINGW64__)
+	return 63 - __builtin_clzll(v);
+#else
+	unsigned long i;
+	_BitScanReverse64(&i, v);
+
+	return static_cast<uint64_t>(i);
+#endif
+}
+
+bool equal_consttime(std::basic_string_view<uint8_t> const& lhs, std::basic_string_view<uint8_t> const& rhs)
+{
+	if (lhs.size() != rhs.size()) {
+		return false;
+	}
+
+	if (lhs.empty()) {
+		return true;
+	}
+
+	return nettle_memeql_sec(lhs.data(), rhs.data(), lhs.size()) != 0;
+}
+
+}

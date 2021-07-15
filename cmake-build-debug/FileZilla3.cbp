@@ -1,0 +1,2254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FileZilla3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wby/Desktop/FileZilla3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wby/Desktop/FileZilla3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wby/Desktop/FileZilla3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FileZilla3">
+				<Option output="/home/wby/Desktop/FileZilla3/cmake-build-debug/FileZilla3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wby/Desktop/FileZilla3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/glue"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/private"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib/windows"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/commonui"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/dbus"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine/ftp"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine/http"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine/sftp"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine/storj"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/fzshellext"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/include"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/interface"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/interface/settings"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/interface/wxext"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/pugixml"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/putty"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/putty/unix"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/putty/windows"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/storj"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileZilla3"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FileZilla3/fast">
+				<Option output="/home/wby/Desktop/FileZilla3/cmake-build-debug/FileZilla3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wby/Desktop/FileZilla3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/glue"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/private"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/libfilezilla/lib/windows"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/commonui"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/dbus"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine/ftp"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine/http"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine/sftp"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/engine/storj"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/fzshellext"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/include"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/interface"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/interface/settings"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/interface/wxext"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/pugixml"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/putty"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/putty/unix"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/putty/windows"/>
+					<Add directory="/home/wby/Desktop/FileZilla3/src/storj"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileZilla3/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/wby/Desktop/FileZilla3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/buffer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/encode.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/encryption.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/event.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/event_handler.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/event_loop.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/file.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/glue/unix.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/hash.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/hostname_lookup.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/invoker.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/iputils.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/json.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/jws.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/apply.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/buffer.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/encode.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/encryption.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/event.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/event_handler.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/event_loop.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/file.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/format.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/glue/unix.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/glue/windows.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/glue/wx.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/glue/wxinvoker.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/hash.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/hostname_lookup.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/invoker.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/iputils.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/json.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/jws.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/libfilezilla.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/local_filesys.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/logger.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/mutex.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/nonowning_buffer.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/optional.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/private/defs.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/private/visibility.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/process.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/rate_limited_layer.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/rate_limiter.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/recursive_remove.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/rwmutex.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/shared.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/signature.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/socket.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/string.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/thread.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/thread_pool.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/time.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/tls_info.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/tls_layer.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/tls_system_trust_store.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/translate.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/uri.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/util.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/libfilezilla/visibility_helper.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/local_filesys.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/mutex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/nonowning_buffer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/process.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/rate_limited_layer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/rate_limiter.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/recursive_remove.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/signature.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/socket.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/socket_errors.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/string.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/thread.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/thread_pool.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/time.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/tls_info.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/tls_layer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/tls_layer_impl.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/tls_layer_impl.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/tls_system_trust_store.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/tls_system_trust_store_impl.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/translate.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/uri.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/util.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/version.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/windows/security_descriptor_builder.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/libfilezilla/lib/windows/security_descriptor_builder.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/buildinfo.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/buildinfo.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/cert_store.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/cert_store.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/chmod_data.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/chmod_data.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/file_utils.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/file_utils.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/filter.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/filter.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/fz_paths.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/fz_paths.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/fz_paths_osx.mm">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/ipcmutex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/ipcmutex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/local_recursive_operation.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/local_recursive_operation.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/login_manager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/login_manager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/recursive_operation.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/registry.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/registry.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/remote_recursive_operation.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/remote_recursive_operation.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/site.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/site.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/site_manager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/site_manager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/updater.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/updater.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/updater_cert.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/updater_cert.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/visibility.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/xml_cert_store.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/xml_cert_store.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/xml_file.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/commonui/xml_file.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/dbushandler.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/dbushandler.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/desktop_notification.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/desktop_notification.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/power_management_inhibitor.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/power_management_inhibitor.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/session_manager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/session_manager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/wxdbusconnection.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/wxdbusconnection.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/wxdbusmessage.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/dbus/wxdbusmessage.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/FileZillaEngine.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/activity_logger.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/activity_logger_layer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/activity_logger_layer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/aio.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/commands.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/controlsocket.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/controlsocket.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/directorycache.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/directorycache.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/directorylisting.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/directorylistingparser.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/directorylistingparser.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/engine_context.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/engine_options.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/engineprivate.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/engineprivate.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/externalipresolver.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/filezilla.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/chmod.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/chmod.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/cwd.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/cwd.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/delete.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/delete.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/filetransfer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/filetransfer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/ftpcontrolsocket.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/ftpcontrolsocket.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/list.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/list.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/logon.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/logon.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/mkd.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/mkd.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/rawcommand.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/rawcommand.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/rawtransfer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/rawtransfer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/rename.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/rename.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/rmd.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/rmd.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/transfersocket.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/ftp/transfersocket.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/connect.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/digest.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/digest.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/filetransfer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/filetransfer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/httpcontrolsocket.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/httpcontrolsocket.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/internalconnect.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/internalconnect.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/request.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/http/request.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/local_path.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/logging.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/logging_private.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/lookup.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/lookup.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/misc.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/notification.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/oplock_manager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/oplock_manager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/optionsbase.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/pathcache.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/pathcache.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/proxy.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/proxy.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/reader.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/rtt.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/rtt.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/server.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/servercapabilities.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/servercapabilities.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/serverpath.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/chmod.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/chmod.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/connect.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/connect.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/cwd.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/cwd.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/delete.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/delete.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/event.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/filetransfer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/filetransfer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/input_thread.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/input_thread.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/list.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/list.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/mkd.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/mkd.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/rename.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/rename.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/rmd.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/rmd.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/sftpcontrolsocket.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sftp/sftpcontrolsocket.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/sizeformatting_base.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/connect.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/connect.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/delete.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/delete.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/event.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/file_transfer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/file_transfer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/input_thread.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/input_thread.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/list.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/list.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/mkd.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/mkd.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/rmd.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/rmd.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/storjcontrolsocket.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/storj/storjcontrolsocket.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/string_reader.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/string_reader.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/version.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/writer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/engine/xmlutils.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/fzshellext/resource.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/fzshellext/shellext.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/fzshellext/shellext.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/FileZillaEngine.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/activity_logger.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/aio.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/commands.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/directorylisting.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/engine_context.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/engine_options.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/externalipresolver.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/httpheaders.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/libfilezilla_engine.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/local_path.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/logging.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/misc.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/notification.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/optionsbase.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/reader.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/s3sse.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/server.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/serverpath.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/setup.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/sizeformatting_base.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/version.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/visibility.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/writer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/xml_string_writer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/include/xmlutils.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/FileZilla.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/LocalListView.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/LocalListView.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/LocalTreeView.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/LocalTreeView.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/Mainfrm.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/Mainfrm.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/Options.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/Options.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/QueueView.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/QueueView.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/RemoteListView.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/RemoteListView.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/RemoteTreeView.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/RemoteTreeView.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/StatusView.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/StatusView.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/aboutdialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/aboutdialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/asksavepassworddialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/asksavepassworddialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/asyncrequestqueue.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/asyncrequestqueue.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/aui_notebook_ex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/aui_notebook_ex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/auto_ascii_files.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/auto_ascii_files.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/bookmarks_dialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/bookmarks_dialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/buildinfo.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/buildinfo.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/chmoddialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/chmoddialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/clearprivatedata.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/clearprivatedata.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/cmdline.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/cmdline.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/commandqueue.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/commandqueue.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/conditionaldialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/conditionaldialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/context_control.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/context_control.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/customheightlistctrl.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/customheightlistctrl.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/defaultfileexistsdlg.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/defaultfileexistsdlg.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/dialogex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/dialogex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/dndobjects.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/dndobjects.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/dragdropmanager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/dragdropmanager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/drop_target_ex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/drop_target_ex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/edithandler.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/edithandler.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/encoding_converter.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/encoding_converter.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/export.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/export.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/file_utils.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/file_utils.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/fileexistsdlg.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/fileexistsdlg.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filelist_statusbar.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filelist_statusbar.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filelistctrl.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filelistctrl.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filezilla.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filezillaapp.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filter_conditions_dialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filter_conditions_dialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filter_manager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filter_manager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filteredit.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/filteredit.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/fzputtygen_interface.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/fzputtygen_interface.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/graphics.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/graphics.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/import.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/import.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/infotext.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/infotext.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/inputdialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/inputdialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/led.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/led.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/list_search_panel.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/list_search_panel.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/listctrlex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/listctrlex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/listingcomparison.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/listingcomparison.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/local_recursive_operation.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/local_recursive_operation.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/locale_initializer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/locale_initializer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/loginmanager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/loginmanager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/manual_transfer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/manual_transfer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/menu_bar.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/menu_bar.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/msgbox.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/msgbox.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/netconfwizard.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/netconfwizard.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/option_change_event_handler.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/option_change_event_handler.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/osx_sandbox_userdirs.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/osx_sandbox_userdirs.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/overlay.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/overlay.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/power_management.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/power_management.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/power_management_osx.mm">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/queue.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/queue.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/queue_storage.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/queue_storage.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/queueview_failed.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/queueview_failed.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/queueview_successful.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/queueview_successful.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/quickconnectbar.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/quickconnectbar.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/recentserverlist.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/recentserverlist.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/recursive_operation_status.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/recursive_operation_status.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/remote_recursive_operation.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/remote_recursive_operation.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/search.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/search.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/serverdata.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/serverdata.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection_active.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection_active.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection_ftp.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection_ftp.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection_passive.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection_passive.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection_sftp.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_connection_sftp.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_dateformatting.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_dateformatting.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_debug.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_debug.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_edit.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_edit.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_edit_associations.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_edit_associations.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_fileexists.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_fileexists.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_filelists.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_filelists.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_filetype.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_filetype.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_ftpproxy.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_ftpproxy.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_interface.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_interface.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_language.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_language.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_logging.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_logging.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_passwords.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_passwords.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_proxy.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_proxy.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_sizeformatting.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_sizeformatting.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_themes.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_themes.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_transfer.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_transfer.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_updatecheck.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/optionspage_updatecheck.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/settingsdialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/settings/settingsdialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sftp_crypt_info_dlg.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sftp_crypt_info_dlg.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sitemanager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sitemanager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sitemanager_controls.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sitemanager_controls.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sitemanager_dialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sitemanager_dialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sitemanager_site.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sitemanager_site.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sizeformatting.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/sizeformatting.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/speedlimits_dialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/speedlimits_dialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/splitter.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/splitter.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/state.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/state.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/statusbar.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/statusbar.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/statuslinectrl.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/statuslinectrl.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/storj_key_interface.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/storj_key_interface.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/systemimagelist.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/systemimagelist.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/textctrlex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/textctrlex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/themeprovider.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/themeprovider.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/timeformatting.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/timeformatting.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/toolbar.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/toolbar.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/toolbar.mm">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/treectrlex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/treectrlex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/update_dialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/update_dialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/verifycertdialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/verifycertdialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/verifyhostkeydialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/verifyhostkeydialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/view.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/view.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/viewheader.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/viewheader.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/volume_enumerator.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/volume_enumerator.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/welcome_dialog.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/welcome_dialog.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/window_state_manager.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/window_state_manager.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/wrapengine.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/wrapengine.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/wxext/spinctrlex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/wxext/spinctrlex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/wxfilesystem_blob_handler.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/wxfilesystem_blob_handler.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/xh_text_ex.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/xh_text_ex.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/xmlfunctions.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/xmlfunctions.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/xrc_helper.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/interface/xrc_helper.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/pugixml/pugiconfig.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/pugixml/pugixml.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/pugixml/pugixml.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/be_misc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/be_ssh.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/callback.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/charset.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/clicons.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/cmdgen.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/cmdline.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/conf.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/console.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/cproxy.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/defs.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ecc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ecc.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/errsock.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/fzprintf.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/fzprintf.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/fzsftp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/fzsftp.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/import.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/logging.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/mainchan.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/marshal.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/marshal.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/memory.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/misc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/misc.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/mpint.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/mpint.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/mpint_i.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/network.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/noprint.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/noshare.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/noterm.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/notiming.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/nullplug.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/pageant.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/pinger.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/portfwd.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/pproxy.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/proxy.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/proxy.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/psftp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/psftp.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/putty.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/puttymem.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/puttyps.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/settings.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sftp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sftp.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sftpcommon.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2bpp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2censor.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2connection-client.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2connection.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2connection.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2kex-client.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2transhk.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2transport.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2transport.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssh2userauth.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshaes.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/ssharcf.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshargon2.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshauxcrypt.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshbcrypt.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshblake2.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshblowf.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshblowf.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshbpp.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshccp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshchan.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshcommon.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshcr.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshcrc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshcrcda.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshdes.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshdh.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshdss.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshdssg.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshecc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshecdsag.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshgssc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshgssc.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshhmac.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshkeygen.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshmac.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshmd5.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshnogss.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshppl.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshprime.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshprng.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshpubk.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshrand.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshrsa.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshrsag.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshserver.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshsh256.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshsh512.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshsha.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshsha3.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshshare.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshsignals.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshttymodes.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshutils.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshverstring.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/sshzlib.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/storage.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/stripctrl.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/terminal.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/time.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/timing.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/tree234.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/tree234.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/unix.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxagentc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxcliloop.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxcons.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxmisc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxnet.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxnoise.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxpeer.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxpoll.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxsel.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxsftp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxstore.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxutils.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/unix/uxutils.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/utils.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/version.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/wcwidth.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/wildcard.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/rcstuff.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/wincapi.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/wincapi.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/wincliloop.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/wincons.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/windefs.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winhandl.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winhsock.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winmisc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winmiscs.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winnet.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winnohlp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winnoise.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winnojmp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winnpc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winnps.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winpgntc.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winsecur.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winsecur.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winselcli.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winsftp.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winstore.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winstuff.h">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/wintime.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/windows/winucs.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/putty/x11fwd.c">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/storj/events.hpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/src/storj/fzstorj.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/tests/cmpnatural.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/tests/dirparsertest.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/tests/localpathtest.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/tests/serverpathtest.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/tests/test.cpp">
+			<Option target="FileZilla3"/>
+		</Unit>
+		<Unit filename="/home/wby/Desktop/FileZilla3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
